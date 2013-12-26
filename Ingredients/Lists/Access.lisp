@@ -1,4 +1,3 @@
-(load "../../Common.lisp")
 (defun elemp (x c) (bor (fmap x (lambda (y) (eql y c)))));C found in list?
 
 (defun fcount (x c) (length (filter x (lambda (y) (eql y c)))));Count for lists.
@@ -15,7 +14,3 @@
       (let ((lesser (filter xs (lambda (x) (< x p))))
             (greater (filter xs (lambda (x) (>= x p)))))
         (append (qsort lesser) (list p) (qsort greater))))))
-
-
-
-

@@ -1,4 +1,4 @@
-# Cookbook-lisp
-Cookbook-lisp is the Lisp port of the Cookbook library. It has always been a part of it, along with the (now deprecated in favor of D) staging C port. This repository is the new home, rather than the nested directory within Cookbook called PORTS.
+# Cookbook: Lisp
+Partial port of the [Cookbook general library](https://github.com/natepisarski/Cookbook-hs/) to Lisp. Mostly an educational exercise in learning Lisp, but can obviously be used in real projects.
 
-To use Cookbook-lisp in your project, get the libraries into your load-path and include Cookook.lisp; it sets up the package names using the short name convention from Cookbook-hs.
+This doesn't contain any of the "advanced" parts of Cookbook like the **Project** or **Recipes** branch, but has the basic functions.
